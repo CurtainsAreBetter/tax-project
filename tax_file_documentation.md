@@ -18,7 +18,7 @@ Bracket
 &
 Tax
 
-Bracket:
+# Bracket:
 
     args -> bottom_value, top_value, rate
 
@@ -61,7 +61,7 @@ This dc state tax bracket is represented as....
             rate=0.04)
 
 
-Tax:
+# Tax:
 
     args -> brackets: list, total_deduction
 
