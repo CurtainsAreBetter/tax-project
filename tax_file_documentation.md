@@ -6,6 +6,9 @@ But I don't believe in learning and I don't believe in conforming,
 so good luck reading these docs.
 
 I mean the code is so simple that it really should just be a non issue.
+If you have trouble PLEASE let me know so I can help you out and do something
+useful/ fun.
+
 
 
 OK
@@ -16,6 +19,7 @@ Bracket
 Tax
 
 Bracket:
+
     args -> bottom_value, top_value, rate
 
     bottom_value
@@ -58,6 +62,7 @@ This dc state tax bracket is represented as....
 
 
 Tax:
+
     args -> brackets: list, total_deduction
 
     brackets
