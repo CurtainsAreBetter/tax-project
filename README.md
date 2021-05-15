@@ -4,6 +4,7 @@ I usually skim and then spend 3 hours googling a question I could
 have answered had I read the docs in full instead of skimming.
 But I don't believe in learning and I don't believe in conforming,
 so good luck reading these docs.
+This was a joke, except for the part about being new to writing documentation.
 
 I mean the code is so simple that it really should just be a non issue.
 If you have trouble PLEASE let me know so I can help you out and do something
