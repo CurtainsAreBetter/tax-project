@@ -83,3 +83,19 @@ This dc state tax bracket is represented as....
         Str()
         --> Returns Bracket() strings
 
+
+
+Tax Example:
+    The dc tax rate for singles that make 0-10,000 is 4%.
+    The dc tax rate for singles that make greater than 10,000 up to 40,000 is 6%.
+    The dc state tax standard deduction is $12,550
+    
+    
+    Tax(brackets=[Bracket(top_value=10000,
+                            rate=0.04),
+                  Bracket(bottom_value=10000,
+                            top_value=40000,
+                            rate=0.06)],
+                  total_deduction=12550)
+
+
