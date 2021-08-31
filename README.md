@@ -36,13 +36,6 @@ simplify working with taxes in python.
         *
         --> num * Bracket() will return num * rate
 
-Bracket Example:
-The dc state tax rate for singles that make $0 - $10,000 is 4%
-This dc state tax bracket is represented as....
-
-    Bracket(bottom_value=0,
-            top_value=10000
-            rate=0.04)
 
 
 ## Tax:
@@ -68,6 +61,15 @@ This dc state tax bracket is represented as....
 
 
 ## Usage
+Bracket Example:
+The dc state tax rate for singles that make $0 - $10,000 is 4%
+This dc state tax bracket is represented as....
+
+    Bracket(bottom_value=0,
+            top_value=10000
+            rate=0.04)
+
+
 Tax Example:
     The dc tax rate for singles that make 0-10,000 is 4%.
     The dc tax rate for singles that make greater than 10,000 up to 40,000 is 6%.
