@@ -1,25 +1,8 @@
+# Basic_Tax_Project
+This program contains two objects (Bracket and Tax) which can be used to
+simplify working with taxes in python.
 
-uh ok never done documentation before and when I read docs,
-I usually skim and then spend 3 hours googling a question I could
-have answered had I read the docs in full instead of skimming.
-But I don't believe in learning and I don't believe in conforming,
-so good luck reading these docs.
-This was a joke, except for the part about being new to writing documentation.
-
-I mean the code is so simple that it really should just be a non issue.
-If you have trouble PLEASE let me know so I can help you out and do something
-useful/ fun.
-
-
-
-OK
-tax.py
-Contains two classes:
-Bracket
-&
-Tax
-
-# Bracket:
+## Bracket:
 
     args -> bottom_value, top_value, rate
 
@@ -62,7 +45,7 @@ This dc state tax bracket is represented as....
             rate=0.04)
 
 
-# Tax:
+## Tax:
 
     args -> brackets: list, total_deduction
 
@@ -84,7 +67,7 @@ This dc state tax bracket is represented as....
         --> Returns Bracket() strings
 
 
-
+## Usage
 Tax Example:
     The dc tax rate for singles that make 0-10,000 is 4%.
     The dc tax rate for singles that make greater than 10,000 up to 40,000 is 6%.

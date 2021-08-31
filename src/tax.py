@@ -19,7 +19,7 @@ class Bracket:
 
     def __repr__(self):
         # There's a use I swear
-        return f"<BracketObj({self._bottom}, {self._top}, {self._rate})>"
+        return f"<Bracket({self._bottom}, {self._top}, {self._rate})>"
 
     def __str__(self):
         return f"BRACKET RANGE\nmin: {self._bottom} exclusive\nmax: {self._top} inclusive\nrate: {self._rate}"
